@@ -1,0 +1,492 @@
+/* DESKTOP VERSION ONLY */
+
+@media (min-width: 1400px) {
+
+  .container {
+    width: 84%;
+  }
+
+  .dropdown-menu.show {
+    display: flex;
+    margin: -1rem 0 0 -8rem;
+    padding: 1rem 15rem;
+  }
+  .dropdown-menu:before {
+    border-color: transparent;
+    border-top-color: var(--primary);
+    border-style: solid;
+    border-width: 15px;
+    transform: rotate(180deg);
+    content: ' ';
+    display: block;
+    height: 2rem;
+    left: 69%;
+    margin-left: -10px;
+    position: absolute;
+    bottom: 100%;
+    width: 0;
+  }
+  .dropdown-item {
+    margin-right: 1rem;
+    color: white !important;
+  }
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: rgba(0, 0, 0, 0);
+    color: white !important;
+  }
+
+  /* HERO */
+
+  .hero {
+    margin: 1rem 0;
+  }
+
+  .text-hero-bold {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--header-1);
+    line-height: 64px;
+  }
+
+  .hero img {
+    margin: 2rem 0;
+  }
+  
+  .home-map-cover {
+    padding: 80px 0 0 0;
+    overflow: hidden;
+    background: url(../images/background/bg-white-1.webp);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #map {
+    position: relative;
+    margin: 0;
+    background-image: url('../images/background/globe.png');
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .dot-1 {
+    background-color: #F4B400;
+    top: 39.2%;
+    left: 49.4%;
+  }
+    
+  .dot-2 {
+    background-color: #4285F4;
+    top: 25%;
+    left: 32%;
+  }
+    
+  .dot-3 {
+    background-color: #DB4437;
+    top: 21%;
+    left: 63%;
+  }
+    
+  .dot-4 {
+    background-color: #0F9D58;
+    top: 49%;
+    left: 73.5%;
+  }
+}
+
+/* MOBILE VERSION ONLY */
+
+@media (max-width: 576px) {
+
+  /* NAVBAR */
+
+  .navbar {
+    padding: 28px 0;
+  }
+
+  .nav-link {
+    margin-right: 7px;
+  }
+
+  .navbar-brand {
+    width: 250px;
+  }
+
+  .dropdown-menu {
+    border-radius: 0;
+    border-color: transparent;
+    background-color: white;
+  }
+  .dropdown-menu .dropdown-item:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    background: transparent;
+  }
+
+  /* HERO */
+
+  .hero {
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .ms-3 {
+    margin-left: 0 !important;
+  }
+
+  .text-label,
+  .text-hero-bold,
+  .text-hero-regular, 
+  .newsletter-title {
+    text-align: start;
+  }
+
+  .text-hero-bold {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--header-4);
+    line-height: 64px;
+  }
+
+  .hero img {
+    margin: 2rem 0;
+  }
+
+  .home-map-cover {
+    padding: 80px 0 0 0;
+    overflow: hidden;
+    background: url(../images/background/bg-white-1.webp);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #map {
+    position: relative;
+    margin: 2rem 0 0 0;
+    background-image: url('../images/background/globe.png');
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .dot-1 {
+    background-color: #F4B400;
+    top: 39.2%;
+    left: 47.9%;
+  }
+  
+  .dot-2 {
+    background-color: #4285F4;
+    top: 25%;
+    left: 20%;
+  }
+  
+  .dot-3 {
+    background-color: #DB4437;
+    top: 17.5%;
+    left: 63%;
+  }
+  
+  .dot-4 {
+    background-color: #0F9D58;
+    top: 52%;
+    left: 75.5%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
+
+
+/* TABLET SMALL VERSION ONLY */
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+  /* NAVBAR */
+
+  .navbar {
+    padding: 28px 0;
+  }
+  
+  .nav-link {
+    margin-right: 7px;
+  }
+
+  .dropdown-menu {
+    border-radius: 0;
+    border-color: transparent;
+    background-color: white;
+  }
+  .dropdown-menu .dropdown-item:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    background: transparent;
+  }
+
+  /* HERO */
+
+  .hero {
+    margin: 1rem 0;
+  }
+
+  .text-hero-bold {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--header-3);
+    line-height: 64px;
+  }
+
+  .hero img {
+    margin: 2rem 0;
+    align-items: center;
+  }
+
+  .home-map-cover {
+    padding: 80px 0 0 0;
+    overflow: hidden;
+    background: url(../images/background/bg-white-1.webp);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #map {
+    position: relative;
+    margin: 0;
+    background-image: url('../images/background/globe.png');
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .dot-1 {
+    background-color: #F4B400;
+    top: 39.2%;
+    left: 49.4%;
+  }
+
+  .dot-2 {
+    background-color: #4285F4;
+    top: 25%;
+    left: 27%;
+  }
+
+  .dot-3 {
+    background-color: #DB4437;
+    top: 19%;
+    left: 63%;
+  }
+
+  .dot-4 {
+    background-color: #0F9D58;
+    top: 49%;
+    left: 75.5%;
+  }
+
+  .footer {
+    text-align: start;
+  }
+
+}
+
+
+/* TABLET MEDIUM & LARGE VERSION ONLY */
+
+@media (min-width: 769px) and (max-width: 991px) {
+    
+  /* NAVBAR */
+
+  .navbar {
+    padding: 28px 0;
+  }
+
+  .nav-link {
+      margin-right: 7px;
+  }
+
+  .dropdown-menu {
+    border-radius: 0;
+    border-color: transparent;
+    background-color: white;
+    overflow: hidden;
+  }
+  .dropdown-menu .dropdown-item:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    background: transparent;
+
+  }
+
+  /* HERO */
+
+  .hero {
+    margin: 1rem 0;
+  }
+
+  .text-hero-bold {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--header-2);
+    line-height: 64px;
+  }
+
+  .hero img {
+    margin: 2rem 0;
+  }
+
+  .home-map-cover {
+    padding: 80px 0 0 0;
+    overflow: hidden;
+    background: url(../images/background/bg-white-1.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+  #map {
+    position: relative;
+    margin: 0;
+    background-image: url('../images/background/globe.png');
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .dot-1 {
+    background-color: #F4B400;
+    top: 39.2%;
+    left: 49.4%;
+  }
+
+  .dot-2 {
+    background-color: #4285F4;
+    top: 25%;
+    left: 30%;
+  }
+
+  .dot-3 {
+    background-color: #DB4437;
+    top: 19%;
+    left: 63%;
+  }
+
+  .dot-4 {
+    background-color: #0F9D58;
+    top: 49%;
+    left: 75.5%;
+  }
+
+  .footer {
+    text-align: start;
+  }
+
+}
+
+/* TABLET MEDIUM & LARGE VERSION ONLY */
+
+@media (min-width: 992px) and (max-width: 1399px) {
+  
+  /* NAVBAR */
+
+  .navbar {
+    padding: 28px 0;
+  }
+
+  .nav-link {
+    margin-right: 7px;
+  }
+
+  .dropdown-menu.show {
+    display: flex;
+    margin: -1rem 0 0 2rem;
+    padding: 1rem 5rem 1rem 3rem;
+    background: rgb(66,133,244);
+    background: linear-gradient(90deg, rgba(66,133,244,1) 0%, rgba(219,68,55,1) 35%, rgba(244,180,0,1) 67%, rgba(15,157,88,1) 100%);
+  }
+
+  .dropdown-menu:before {
+    border-color: transparent;
+    border-top-color: var(--primary);
+    border-style: solid;
+    border-width: 15px;
+    transform: rotate(180deg);
+    content: ' ';
+    display: block;
+    height: 2rem;
+    left: 69%;
+    margin-left: -10px;
+    position: absolute;
+    bottom: 100%;
+    width: 0;
+  }
+  .dropdown-item {
+    margin-right: 1rem;
+    color: white !important;
+  }
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: rgba(0, 0, 0, 0);
+    color: white !important;
+  }
+
+  /* HERO */
+
+  .hero {
+    margin: 1rem 0;
+  }
+
+  .text-hero-bold {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--header-1);
+    line-height: 64px;
+    margin-top: 3rem;
+  }
+
+  .hero img {
+    margin: 0;
+  }
+
+  .home-map-cover {
+    padding: 80px 0 0 0;
+    overflow: hidden;
+    background: url(../images/background/bg-white-1.webp);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #map {
+    position: relative;
+    margin: 0;
+    background-image: url('../images/background/globe.png');
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .dot-1 {
+    background-color: #F4B400;
+    top: 39.2%;
+    left: 49.4%;
+  }
+
+  .dot-2 {
+    background-color: #4285F4;
+    top: 25%;
+    left: 32%;
+  }
+
+  .dot-3 {
+    background-color: #DB4437;
+    top: 21%;
+    left: 63%;
+  }
+
+  .dot-4 {
+    background-color: #0F9D58;
+    top: 49%;
+    left: 73.5%;
+  }
+
+  .footer {
+    text-align: start;
+  }
+}
