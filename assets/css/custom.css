@@ -108,3 +108,147 @@ a {
   color: var(--bg-clr-light);
   transition: all 0.4s ease;
 }
+
+/* VYF Custom Color */
+.vyf-custom {
+  background: rgb(66,133,244);
+  background: linear-gradient(90deg, rgba(66,133,244,1) 0%, rgba(219,68,55,1) 35%, rgba(244,180,0,1) 67%, rgba(15,157,88,1) 100%); 
+ }
+ .vyf-custom-text {
+  background: var(--primary);
+  background: -webkit-linear-gradient(to right, #4285F4 0%, #4285F4 15%, #DB4437 20%, #DB4437 30%,#F4B400 40%, #F4B400 55%, #0F9D58 80%);
+  background: -o-linear-gradient(to right, #4285F4 0%, #4285F4 15%, #DB4437 20%, #DB4437 30%,#F4B400 40%, #F4B400 55%, #0F9D58 80%);
+  background: -moz-linear-gradient(to right, #4285F4 0%, #4285F4 15%, #DB4437 20%, #DB4437 30%,#F4B400 40%, #F4B400 55%, #0F9D58 80%);
+  background: linear-gradient(to right, #4285F4 0%, #4285F4 15%, #DB4437 20%, #DB4437 30%,#F4B400 40%, #F4B400 55%, #0F9D58 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -ms-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+ }
+ .blue {
+  color: var(--blue);
+ }
+ .red {
+  color: var(--red);
+ }
+ .green {
+  color: var(--green);
+ }
+ .yellow {
+  color: var(--yellow);
+ }
+
+ /* BUTTON & INPUT */
+
+.btn, input, textarea{
+  padding: 15px 25px;
+  border-radius: 0 !important;
+}
+.btn:focus, input:focus {
+  border: 1px solid var(--primary-light) !important;
+}
+
+.btn-blue {
+  background-color: var(--blue);
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue:visited {
+  background-color: var(--blue-light);
+}
+
+.btn-red {
+  background-color: var(--red);
+}
+
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active,
+.btn-red:visited {
+  background-color: var(--red-light);
+}
+
+.btn-green {
+  background-color: var(--green);
+}
+
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active,
+.btn-green:visited {
+  background-color: var(--green-light);
+}
+
+.btn-yellow {
+  background-color: var(--yellow);
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus,
+.btn-yellow:active,
+.btn-yellow:visited {
+  background-color: var(--yellow-light);
+}
+
+.input-group .btn{
+  border: none !important;
+}
+
+.newsletter-title {
+  font-size: 1rem;
+  color: var(--primary-light);
+}
+.newsletter-input {
+  width: 95%;
+}
+
+/* NAVBAR */
+
+.navbar-brand img {
+  padding-right: 16px;
+  width: 300px;
+  height: 100%;
+}
+.navbar-brand:hover {
+  transform: rotate(-2deg);
+  transition: 500ms ease-in-out;
+}
+
+.nav-link {
+  font-size: var(--text-medium);
+  font-weight: var(--font-weight-semi-bold);
+  color: var(--dark-brown) !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+.navbar-toggler {
+  border: transparent;
+}
+.navbar-toggler:focus {
+  border: 1px solid var(--primary-light)
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  border-color: 1px solid var(--primary);
+  background-color: white;
+  color: var(--primary);
+  position: relative;
+}
+.dropdown-menu .dropdown-item:hover {
+  text-decoration: underline;
+  color: var(--primary-light);
+  text-underline-offset: 0.5rem;
+  background: transparent;
+}
