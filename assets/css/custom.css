@@ -704,3 +704,37 @@ a {
   -o-animation: flickerAnimation 5s infinite;
   animation: flickerAnimation 5s infinite;
 }
+
+/* SERVICES */
+
+.services {
+  margin-top: -5rem;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: url('../images/background/bg-white-3.webp');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.card {
+  margin: 2rem;
+}
+.card-body {
+  height: 18rem;
+  padding: 2.5rem 0.5rem 0 0.5rem;
+}
+.card-body-2 {
+  height: 23rem;
+}
+.card-body h3 {
+  font-size: 2rem;
+}
+.card-body p {
+  color: var(--primary-light);
+}
+.card-title {
+  font-size: 4rem;
+}
+
