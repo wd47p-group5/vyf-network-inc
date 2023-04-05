@@ -6,7 +6,7 @@
 
 ## Github Page Link: 
 [GitHub Repo](https://github.com/wd47p-group5/vyf-network-inc)
-[Live Demo](https://xtianbar.github.io/portfolio/)
+[Live Demo](https://wd47p-group5.github.io/vyf-network-inc/)
 
 ## TECHNOLOGIES
 
@@ -14,7 +14,7 @@
 
 ## CONTRIBUTORS:
 
-1. Andy Bell - [CSS Reset](https://piccalil.li/blog/a-modern-css-reset)
+1. Bootstrap.com for the NAVBAR-COLLAPSE and OFF-CANVAS NAVBAR-MENU - https://getbootstrap.com/docs/5.3/getting-started/introduction/
 2. CodingArtist on Youtube for the back-to-top with progress value - https://codingartistweb.com/
 
 ## CURRENT FEATURES IMPLEMENTED
