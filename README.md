@@ -6,11 +6,12 @@
 
 ## Github Page Link: 
 [GitHub Repo](https://github.com/wd47p-group5/vyf-network-inc)
-[Live Demo](https://wd47p-group5.github.io/vyf-network-inc/)
-
+[Live Demo - Git Pages](https://wd47p-group5.github.io/vyf-network-inc/)
+[Live Demo - Netlify](https://vyf-networks.netlify.app/)
 ## TECHNOLOGIES
 
-1. HTML, CSS, JavaScipt, Bootstrap
+1. HTML, CSS (Bootstrap), JavaScipt
+2. Netlify
 
 ## CONTRIBUTORS:
 
