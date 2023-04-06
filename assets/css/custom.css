@@ -261,17 +261,6 @@ a {
   text-transform: uppercase;
 }
 
-.section-title--terms p{
-  font-size: var(--font-weight-regular);
-  font-weight: var(--font-weight-medium);
-  color: var(--dark-brown);
-  text-align: left;
-  margin-left: 8%;
-  line-height: 30px;
-}
-
-
-
 /* HERO */
 
 .hero {
