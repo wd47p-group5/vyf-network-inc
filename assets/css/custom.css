@@ -253,6 +253,10 @@ a {
   background: transparent;
 }
 
+.active-page {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
 /* SECTION TITLE */
 
 .section-title h3{
