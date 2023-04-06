@@ -261,6 +261,21 @@ a {
   text-transform: uppercase;
 }
 
+.section-title--terms h3{
+  font-weight: var(--font-weight-bold);
+  color: var(--dark-brown);
+  text-transform: uppercase;
+}
+
+.section-title--terms p{
+  font-size: var(--font-weight-regular);
+  color: var(--dark-brown);
+  text-align: left;
+  margin-left: 10%;
+}
+
+
+
 /* HERO */
 
 .hero {
