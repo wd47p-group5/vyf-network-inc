@@ -269,6 +269,11 @@ a {
   background: transparent;
 }
 
+.active-page {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
 /* SECTION TITLE */
 
 .section-title h3{
@@ -721,6 +726,7 @@ a {
   animation: flickerAnimation 5s infinite;
 }
 
+
 /* SERVICES */
 
 .services {
@@ -804,7 +810,7 @@ a {
 /* FOOTER */
 
 .footer {
-  background-color: #fff ;
+  background-color: #d9d9d9 ;
   padding: 0 2rem;
 }
 .footer-2 {
