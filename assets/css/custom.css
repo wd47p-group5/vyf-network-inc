@@ -790,6 +790,13 @@ a {
   transition: 0.5ms ease-in-out !important;
 }
 
+.products-name {
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
 /* FOOTER */
 
 .footer {
