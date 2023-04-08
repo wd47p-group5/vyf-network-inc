@@ -142,6 +142,23 @@ a {
   color: var(--yellow);
  }
 
+ .blue-bg {
+  background-color: var(--blue);
+  color: #fff;
+ }
+ .red-bg {
+  background-color: var(--red);
+  color: #fff;
+ }
+ .green-bg {
+  background-color: var(--green);
+  color: #fff;
+ }
+ .yellow-bg {
+  background-color: var(--yellow);
+  color: #fff;
+ }
+
  /* BUTTON & INPUT */
 
 .btn, input, textarea{
