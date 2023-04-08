@@ -287,6 +287,25 @@ a {
   text-transform: uppercase;
 }
 
+.terms{
+  margin-left: 1rem;
+}
+
+.terms h2{
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.paragraph{
+  font-size: var(--font-weight-semi-regular);
+  color: var(--dark-brown) !important;
+  text-align: left;
+}
+
+
+
+
 /* HERO */
 
 .hero {
