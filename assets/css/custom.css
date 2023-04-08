@@ -142,6 +142,23 @@ a {
   color: var(--yellow);
  }
 
+ .blue-bg {
+  background-color: var(--blue);
+  color: #fff;
+ }
+ .red-bg {
+  background-color: var(--red);
+  color: #fff;
+ }
+ .green-bg {
+  background-color: var(--green);
+  color: #fff;
+ }
+ .yellow-bg {
+  background-color: var(--yellow);
+  color: #fff;
+ }
+
  /* BUTTON & INPUT */
 
 .btn, input, textarea{
@@ -253,6 +270,15 @@ a {
   background: transparent;
 }
 
+.active-page {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+.active-page {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
 /* SECTION TITLE */
 
 .section-title h3{
@@ -260,21 +286,6 @@ a {
   color: var(--dark-brown);
   text-transform: uppercase;
 }
-
-.section-title--terms h3{
-  font-weight: var(--font-weight-bold);
-  color: var(--dark-brown);
-  text-transform: uppercase;
-}
-
-.section-title--terms p{
-  font-size: var(--font-weight-regular);
-  color: var(--dark-brown);
-  text-align: left;
-  margin-left: 10%;
-}
-
-
 
 /* HERO */
 
@@ -800,6 +811,42 @@ a {
   transition: 0.5ms ease-in-out !important;
 }
 
+/* PARTNERS */
+
+.partners {
+  margin-top: 5rem;
+  width: 100%;
+  height: 100%;
+  background: url('../images/background/bg-white-3.webp');
+  background-repeat: repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.carousel {
+  margin-top: -5rem;
+}
+.carousel-caption h5 {
+  margin-top: -5rem;
+}
+
+/* MISSION */
+
+.mission {
+  margin-top: 5rem;
+  width: 100%;
+  height: 100%;
+  background: url('../images/background/bg-white-2.webp');
+  background-repeat: repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.mission > .text-hero-regular {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /* FOOTER */
 
 .footer {
@@ -819,6 +866,7 @@ a {
   color: var(--primary-light) !important;
   margin-top: 1rem !important;
 }
+
 
 /* BACK TO TOP */
 #progress {
