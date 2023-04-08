@@ -828,6 +828,12 @@ a {
   transition: 0.5ms ease-in-out !important;
 }
 
+.brand-logo{
+  position: relative;
+  max-width: 300px;
+  height: auto;
+}
+
 /* PARTNERS */
 
 .partners {
