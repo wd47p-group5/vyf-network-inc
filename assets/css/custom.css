@@ -889,7 +889,7 @@ a {
 
 .contact .info {
   padding: 30px;
-  background: var(--yellow);
+  background: var(--blue);
   color: white;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1024,6 +1024,7 @@ a {
 .contact .email-form button[type=submit] {
   padding: 15px 25px;
   border-radius: 0 !important;
+  text-transform: uppercase;
 }
 
 .contact .email-form button[type=submit]:hover,
@@ -1031,7 +1032,7 @@ a {
   border: 1px solid var(--primary-light) !important;
 }
 
-input::placeholder {
+.email-form input::placeholder, .email-form textarea::placeholder {
   color: var(--primary) !important;
 }
 
