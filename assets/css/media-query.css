@@ -1,6 +1,6 @@
 /* DESKTOP VERSION ONLY */
 
-@media (min-width: 1400px) {
+@media (min-width: 1601px) {
 
   .container {
     width: 84%;
@@ -8,24 +8,15 @@
 
   .dropdown-menu.show {
     display: flex;
-    margin: -1rem 0 0 -8rem;
-    padding: 1rem 15rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 1rem 5rem 1rem 5rem;
+    background: rgb(66,133,244);
+    background: linear-gradient(90deg, rgba(66,133,244,1) 0%, rgba(219,68,55,1) 35%, rgba(244,180,0,1) 67%, rgba(15,157,88,1) 100%);
   }
-  .dropdown-menu:before {
-    border-color: transparent;
-    border-top-color: var(--primary);
-    border-style: solid;
-    border-width: 15px;
-    transform: rotate(180deg);
-    content: ' ';
-    display: block;
-    height: 2rem;
-    left: 69%;
-    margin-left: -10px;
-    position: absolute;
-    bottom: 100%;
-    width: 0;
-  }
+
   .dropdown-item {
     margin-right: 1rem;
     color: white !important;
@@ -39,7 +30,7 @@
   /* HERO */
 
   .hero {
-    margin: 1rem 0;
+    margin: 5rem 0 !important;
   }
 
   .text-hero-bold {
@@ -383,7 +374,7 @@
 
 /* TABLET MEDIUM & LARGE VERSION ONLY */
 
-@media (min-width: 992px) and (max-width: 1399px) {
+@media (min-width: 992px) and (max-width: 1600px) {
   
   /* NAVBAR */
 
@@ -397,8 +388,11 @@
 
   .dropdown-menu.show {
     display: flex;
-    margin: -1rem 0 0 2rem;
-    padding: 1rem 5rem 1rem 3rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: -1.2rem 0 0 0;
+    padding: 1rem 5rem 1rem 5rem;
     background: rgb(66,133,244);
     background: linear-gradient(90deg, rgba(66,133,244,1) 0%, rgba(219,68,55,1) 35%, rgba(244,180,0,1) 67%, rgba(15,157,88,1) 100%);
   }
@@ -411,7 +405,7 @@
     transform: rotate(180deg);
     content: ' ';
     display: block;
-    height: 2rem;
+    height: 1.5rem;
     left: 69%;
     margin-left: -10px;
     position: absolute;
