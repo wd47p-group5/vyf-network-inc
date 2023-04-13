@@ -288,7 +288,7 @@ a {
 }
 
 .terms{
-  margin-left: 1rem;
+  margin: 0 6rem 3rem 6rem !important;
 }
 
 .terms h2{
@@ -298,9 +298,9 @@ a {
 }
 
 .paragraph{
-  font-size: var(--font-weight-semi-regular);
-  color: var(--dark-brown) !important;
-  text-align: left;
+  font-size: var(--text-regular);
+  color: var(--primary) !important;
+  text-align: justify;
 }
 
 
