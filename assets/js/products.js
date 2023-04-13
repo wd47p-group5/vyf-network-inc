@@ -56,7 +56,7 @@ else {
         
         function description(card, c) {
             let description = document.createElement('p');
-            card.appendChild(description);
+            card.appendChild(description).className = "card-description";
             description.append(c);
         }
         
@@ -71,7 +71,7 @@ else {
             let image = document.createElement('img');
             image.setAttribute("alt", a);
             image.setAttribute("src", b);
-            card.appendChild(image).className = "card mb-4 shadow-sm";
+            card.appendChild(image).className = "card-image-top mb-4";
         }
         // End of CARD BODY
         

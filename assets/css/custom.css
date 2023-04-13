@@ -828,6 +828,30 @@ a {
   transition: 0.5ms ease-in-out !important;
 }
 
+.products-name {
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.products-title h4 {
+  font-weight: bold;
+}
+
+.card-image-top {
+  margin: 1rem;
+}
+
+.card-description {
+  padding: 0 1rem 0 1rem;
+}
+
+.products-image {
+  width: 30rem;
+  margin-bottom: -100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* PARTNERS */
 
 .partners {
