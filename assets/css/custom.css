@@ -295,6 +295,15 @@ a {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
+.active-page {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+.active-page {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
 /* SECTION TITLE */
 
 .section-title h3{
@@ -302,6 +311,25 @@ a {
   color: var(--dark-brown);
   text-transform: uppercase;
 }
+
+.terms{
+  margin: 0 6rem 3rem 6rem !important;
+}
+
+.terms h2{
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.paragraph{
+  font-size: var(--text-regular);
+  color: var(--primary) !important;
+  text-align: justify;
+}
+
+
+
 
 /* HERO */
 
