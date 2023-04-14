@@ -54,10 +54,10 @@ else {
             name.append(a);
         }
         
-        function description(card) {
+        function description(card, c) {
             let description = document.createElement('p');
-            card.appendChild(description);
-            description.append("Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, maxime.");
+            card.appendChild(description).className = "card-description";
+            description.append(c);
         }
         
         function button(card) {
@@ -71,31 +71,31 @@ else {
             let image = document.createElement('img');
             image.setAttribute("alt", a);
             image.setAttribute("src", b);
-            card.appendChild(image).className = "card mb-4 shadow-sm";
+            card.appendChild(image).className = "card-image-top mb-4";
         }
         // End of CARD BODY
         
         // Start of CARD CONTAINER
-        function card(cardContainer, a, b){
+        function card(cardContainer, a, b, c){
             let card = document.createElement('div');
             cardContainer.appendChild(card).className = "card mb-4 shadow-sm";
             if(b) {
               image(card, a, b);
             }
             name(card, a);
-            description(card);
+            description(card, c);
             button(card);
         }
         
-        function cardContainer(a, b, divContainer) {
+        function cardContainer(a, b, c, divContainer) {
             let cardContainer = document.createElement('div');
             divContainer.appendChild(cardContainer).className = "col-lg-3 col-md-6 d-flex align-items-stretch";
-            card(cardContainer, a, b);
+            card(cardContainer, a, b, c);
         }
         // End of CARD CONTAINER
         
-        function productContainer(a, b, divContainer) {
-            cardContainer(a, b, divContainer);
+        function productContainer(a, b, c, divContainer) {
+            cardContainer(a, b, c, divContainer);
         }
         
     // for(let i = 0; soloBrand.length)
@@ -107,7 +107,8 @@ else {
         for (let item of brandProducts) {
           let productName = item.name;
           let productImageSrc = item.src;
-          productContainer(productName, productImageSrc, divContainer);
+          let productDescription = item.description;
+          productContainer(productName, productImageSrc, productDescription, divContainer);
         }
       } 
     else if(brandComputing) {
@@ -115,7 +116,8 @@ else {
         for (let item of computing) {
             let productName = item.name;
             let productImageSrc = item.src;
-            productContainer(productName, productImageSrc, divContainer);
+            let productDescription = item.description;
+            productContainer(productName, productImageSrc, productDescription, divContainer);
           }
     }
     else if(brandNetworking) {
@@ -123,7 +125,8 @@ else {
         for (let item of networking) {
             let productName = item.name;
             let productImageSrc = item.src;
-            productContainer(productName, productImageSrc, divContainer);
+            let productDescription = item.description;
+            productContainer(productName, productImageSrc, productDescription, divContainer);
           }
     }
     else if(brandCctv) {
@@ -131,7 +134,8 @@ else {
         for (let item of cctv) {
             let productName = item.name;
             let productImageSrc = item.src;
-            productContainer(productName, productImageSrc, divContainer);
+            let productDescription = item.description;
+            productContainer(productName, productImageSrc, productDescription, divContainer);
           }
     }
     else if(brandVoip) {
@@ -139,7 +143,8 @@ else {
         for (let item of voip) {
             let productName = item.name;
             let productImageSrc = item.src;
-            productContainer(productName, productImageSrc, divContainer);
+            let productDescription = item.description;
+            productContainer(productName, productImageSrc, productDescription, divContainer);
           }
     }
     else if(brandSecurity) {
@@ -147,7 +152,8 @@ else {
         for (let item of security) {
             let productName = item.name;
             let productImageSrc = item.src;
-            productContainer(productName, productImageSrc, divContainer);
+            let productDescription = item.description;
+            productContainer(productName, productImageSrc, productDescription, divContainer);
           }
     }
     else if(brandStructuredCabling) {
@@ -155,7 +161,8 @@ else {
         for (let item of structuredCabling) {
             let productName = item.name;
             let productImageSrc = item.src;
-            productContainer(productName, productImageSrc, divContainer);
+            let productDescription = item.description;
+            productContainer(productName, productImageSrc, productDescription, divContainer);
           }
     }
     else if(brandSoftwareSolution) {
@@ -163,7 +170,8 @@ else {
         for (let item of softwareSolution) {
             let productName = item.name;
             let productImageSrc = item.src;
-            productContainer(productName, productImageSrc, divContainer);
+          let productDescription = item.description;
+          productContainer(productName, productImageSrc, productDescription, divContainer);
           }
     }
     else if(brandDataCenter) {
@@ -171,7 +179,8 @@ else {
         for (let item of dataCenter) {
             let productName = item.name;
             let productImageSrc = item.src;
-            productContainer(productName, productImageSrc, divContainer);
+          let productDescription = item.description;
+          productContainer(productName, productImageSrc, productDescription, divContainer);
           }
     }
 
