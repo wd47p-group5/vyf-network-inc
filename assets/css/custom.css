@@ -129,6 +129,7 @@ a {
   -moz-text-fill-color: transparent;
   -o-text-fill-color: transparent;
  }
+
  .blue {
   color: var(--blue);
  }
@@ -141,6 +142,7 @@ a {
  .yellow {
   color: var(--yellow);
  }
+
  .blue-bg {
   background-color: var(--blue);
   color: #fff;
@@ -158,20 +160,20 @@ a {
   color: #fff;
  }
 
- .blue-bg {
-  background-color: var(--blue);
+ .blue-light-bg {
+  background-color: var(--blue-light);
   color: #fff;
  }
- .red-bg {
-  background-color: var(--red);
+ .red-light-bg {
+  background-color: var(--red-light);
   color: #fff;
  }
- .green-bg {
-  background-color: var(--green);
+ .green-light-bg {
+  background-color: var(--green-light);
   color: #fff;
  }
- .yellow-bg {
-  background-color: var(--yellow);
+ .yellow-light-bg {
+  background-color: var(--yellow-light);
   color: #fff;
  }
 
@@ -791,7 +793,9 @@ a {
 
 .card {
   margin: 2rem;
+  border-radius: 0 !important;
 }
+
 .card-body {
   height: 18rem;
   padding: 2.5rem 0.5rem 0 0.5rem;
@@ -807,6 +811,9 @@ a {
 }
 .card-title {
   font-size: 4rem;
+}
+.card-img-top {
+  border-radius: 0 !important;
 }
 
 /* PRODUCTS */
