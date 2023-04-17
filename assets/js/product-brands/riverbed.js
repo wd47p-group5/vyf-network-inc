@@ -1,27 +1,27 @@
 export let brandProducts = [
     {
       type: "security",
-      name: "Alluvio Packet Analyzer Plus",
-      src: "https://store-images.s-microsoft.com/image/apps.12843.a467e107-7af8-4241-9a43-8cd32d59a507.eec3cc1e-8ea5-4fe2-a7ac-52bcc70109b2.a36b35c3-1d33-4e8d-9aa0-049dc4097bc3",
-      description: "Alluvio Packet Analyzer Plus speeds real-time network packet analysis and reporting of large trace files using an intuitive graphical user interface and a broad selection of pre-defined analysis views.",
+      name: "Enterprise SD-WAN",
+      src:"../../../../assets/images/products/security/riverbed/SteelConnect_EX_SD-WAN.webp",
+      description: "Riverbed SteelConnect EX is a powerful enterprise SD-WAN solution that integrates best-in-class routing, application acceleration, network visibility, and security services – a flexible and complete WAN Edge platform that gives you what you need to modernize your network and propel your business in the digital age.",
     },
     {
       type: "security",
-      name: "NetAuditor",
-      src: "https://store-images.s-microsoft.com/image/apps.12843.a467e107-7af8-4241-9a43-8cd32d59a507.eec3cc1e-8ea5-4fe2-a7ac-52bcc70109b2.a36b35c3-1d33-4e8d-9aa0-049dc4097bc3",
-      description: "Riverbed NetAuditor is a comprehensive network configuration management solution that dynamically creates and maintains infrastructure diagrams and reports configuration changes.  ",
+      name: "SteelHead Interceptor",
+      src: "../../../../assets/images/products/security/riverbed/SteelConnect_EX685.webp",
+      description: "SteelHead Interceptor delivers the only load-balancing solution capable of assessing SteelHead pressures and seamlessly steers traffic to the optimal SteelHead to continuously and efficiently scale application traffic.",
     },
     {
         type: "security",
-        name: "AWS Network Monitoring",
-        src: "https://store-images.s-microsoft.com/image/apps.12843.a467e107-7af8-4241-9a43-8cd32d59a507.eec3cc1e-8ea5-4fe2-a7ac-52bcc70109b2.a36b35c3-1d33-4e8d-9aa0-049dc4097bc3",
-        description: "High-level end-to-end flow visibility using AWS VPC Flow Logs. Deep-dive network and application packet-based visibility using AWS Traffic Mirroring for secure packet collection.",
+        name: "SteelHead Mobile Controller ",
+        src: "../../../../assets/images/products/security/riverbed/SteelCentral_Controller_for_SteelHead_Mobile.webp",
+        description: "Manages the SteelHead Mobile licenses and controls the deployment, management and reporting of SteelHead Mobile software clients. It offers industry-leading speed, simplicity and flexibility, so you can quickly and easily deploy SteelHead Mobile for your remote workers",
       },
       {
         type: "security",
-        name: "SteelHead Interceptor",
-        src: "https://store-images.s-microsoft.com/image/apps.12843.a467e107-7af8-4241-9a43-8cd32d59a507.eec3cc1e-8ea5-4fe2-a7ac-52bcc70109b2.a36b35c3-1d33-4e8d-9aa0-049dc4097bc3",
-        description: "SteelHead Interceptor enables customers to scale optimization solutions to support hundreds of thousands of end users across an enterprise, as well as very high bandwidth connections into the data center..",
+        name: "SteelHead CX770",
+        src: "../../../../assets/images/products/security/riverbed/Steelhead_CX770.webp",
+        description: "Features dedicated WAN optimization appliances, ideal for organizations that want to improve application performance and data transfers served over a wide area network. The series is engineered for seamless network integration into remote sites and data centers, with scalable performance designed to support a growing number of users, devices, and data.",
       },
   ];
   
