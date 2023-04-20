@@ -131,7 +131,7 @@
 
         <div class="col-lg-6 mt-0 mb-3">
 
-          <form name="talk-to-me" class="email-form">
+          <form name="vyf-contact-form" class="email-form">
             <div class="row my-3">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Enter Name" required="">
@@ -143,12 +143,9 @@
             <div class="form-group mt-3">
               <textarea class="form-control" name="message" rows="5" placeholder="Enter Message" required=""></textarea>
             </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
+            <div class="text-center"><button type="submit" class="btn btn-red text-white ms-4 mb-2">Send Message</button>
             </div>
-            <div class="text-center"><button type="submit" class="btn btn-red text-white ms-4 mb-2">Send Message</button></div>
+            <span class="yellow" id="message"></span>
           </form>
 
         </div>
@@ -157,12 +154,13 @@
           
           <div class="yellow-bg p-5 mt-3">
             <h5 class="newsletter-title fst-italic text-white">Subscribe to our newsletter</h5>
-            <form class="row g-3">
+            <form class="row g-3" name="vyf-subsheet">
               <div class="input-group newsletter-input">
-                <input type="text" class="form-control newsletter-email" placeholder="Enter email" aria-label="Enter email">
-                <a class="btn btn-dark btn-green">SIGN UP <i class="fa-solid fa-arrow-right"></i></a>
+                <input type="email" name="email" class="form-control newsletter-email" placeholder="Enter email" aria-label="Enter email">
+                <button class="btn btn-dark btn-green" type="submit">SIGN UP <i class="fa-solid fa-arrow-right"></i></button>
               </div>  
             </form>
+            <span class="blue" id="subscribed"> </span>
           </div>
 
         </div>

@@ -19,10 +19,12 @@ let modulePath;
 
 if (productName){
     modulePath = `./product-brands/${productName}.js`
-    brandName = productName;}
+    brandName = productName;
+  }
 else {
-    modulePath = `product-brands/${brandName}.js`;
-    }
+  modulePath = `./product-brands/${productName}.js`
+  brandName = productName;
+}
     
     import(modulePath)
       .then((module) => {

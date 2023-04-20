@@ -242,7 +242,10 @@ a {
 .newsletter-input {
   width: 95%;
 }
-
+#subscribed {
+  font-size: var(--text-regular);
+  font-weight: var(--font-weight-semi-bold);
+}
 /* NAVBAR */
 
 .navbar-brand img {

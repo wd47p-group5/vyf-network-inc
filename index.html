@@ -40,7 +40,7 @@
     <nav class="navbar navbar-expand-lg mt-4">
         
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="assets/images/logo/vyf-bk.webp" alt="brand">
             <h1 class="d-none visually-hidden">VYF Networks, Inc.</h1>
         </a>
@@ -105,11 +105,13 @@
                     </div>                 
                     
                     <h5 class="newsletter-title fst-italic">Subscribe to our newsletter</h5>
-                    <form class="row g-3">
+                    <form class="row g-3" name="vyf-subsheet">
                       <div class="input-group newsletter-input">
-                        <input type="text" class="form-control newsletter-email" placeholder="Enter email" aria-label="Enter email">
-                        <a class="btn btn-dark btn-red">SIGN UP <i class="fa-solid fa-arrow-right"></i></a>
-                      </div>  
+                        <input name="email" type="email" class="form-control newsletter-email" placeholder="Enter email" aria-label="Enter email">
+                        <button class="btn btn-dark btn-red" type="submit">SIGN UP <i class="fa-solid fa-arrow-right"></i></button>
+                        
+                      </div>
+                      <span class="green" id="subscribed"></span>  
                     </form>
 
                 </div>
