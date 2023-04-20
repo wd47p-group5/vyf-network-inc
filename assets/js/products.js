@@ -21,7 +21,7 @@ if (productName){
     modulePath = `./product-brands/${productName}.js`
     brandName = productName;}
 else {
-    modulePath = `./product-brand/${brandName}.js`;
+    modulePath = `product-brand/${brandName}.js`;
     }
     
     import(modulePath)
