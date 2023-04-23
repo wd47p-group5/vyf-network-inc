@@ -15,13 +15,13 @@ export let brandProducts = [
         type: "dataCenter",
         name: "S5000-Q-I 1000Mbps WAN ",
         src: "../../../../assets/images/products/data-center/sangfor/sangfor-S5000-Q-I_1000Mbps_WAN.webp",
-        description: "deployed in the WAN gateway of data centres and branch offices, enables Application Acceleration, reduces traffic, compresses stream, streams cache and accelerates protocol among other leading technologies. ",
+        description: "Deployed in the WAN gateway of data centres and branch offices, enables Application Acceleration, reduces traffic, compresses stream, streams cache and accelerates protocol among other leading technologies. ",
       },
       {
         type: "dataCenter",
         name: "aStor",
         src: "../../../../assets/images/products/data-center/sangfor/sangfor-astor.webp",
-        description: "uses software-defined technology to consolidate storage into storage resource pool for elastic expansion and on-demand allocation.",
+        description: "Uses software-defined technology to consolidate storage into storage resource pool for elastic expansion and on-demand allocation.",
       },
     ];
   
