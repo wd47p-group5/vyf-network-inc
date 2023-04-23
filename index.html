@@ -15,7 +15,7 @@
 
   <!-- Bootstrap, icons CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  
+
   <!-- Font Awesome CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" rel="stylesheet" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
@@ -26,19 +26,19 @@
   <link href="https://fonts.googleapis.com" rel="preconnect" >
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
-  
+
   <!-- CUSTOM CSS -->
   <link rel="stylesheet" href="assets/css/custom.css">
   <link rel="stylesheet" href="assets/css/media-query.css">
 
 </head>
 <body data-bs-spy="scroll">
-  
+
   <!-- START! -->
   <header>
     <!-- Navbar Section -->
     <nav class="navbar navbar-expand-lg mt-4">
-        
+
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="assets/images/logo/vyf-bk.webp" alt="brand">
@@ -54,7 +54,7 @@
               <h5 class="offcanvas-title vyf-custom-text fw-bolder" id="bdNavbarOffcanvasLabel">VYF Networks, Inc.</h5>
                 <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar"></button>
             </div>
-        
+
             <div class="offcanvas-body p-4 p-lg-0 ms-xxl-auto ms-xl-auto ms-lg-auto">
 
               <ul class="mt-2 navbar-nav ms-auto flex-xxl-row flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-wrap bd-navbar-nav">
@@ -90,7 +90,7 @@
       </div>
     </nav>
   </header>
-  
+
   <!-- Hero Section -->
   <section class="hero mt-5">
     <div class="container">
@@ -102,16 +102,16 @@
                     </div>
                     <div class="text-hero-regular">
                       Looking for innovative IT services? No worries, <span class="green fw-bold h5">VYF Networks, Inc.</span> is the answer for that.
-                    </div>                 
-                    
+                    </div>
+
                     <h5 class="newsletter-title fst-italic">Subscribe to our newsletter</h5>
-                    <form class="row g-3" name="vyf-subsheet">
+                    <form id="email-form" class="row g-3" name="vyf-subsheet">
                       <div class="input-group newsletter-input">
-                        <input name="email" type="email" class="form-control newsletter-email" placeholder="Enter email" aria-label="Enter email">
-                        <button class="btn btn-dark btn-red" type="submit">SIGN UP <i class="fa-solid fa-arrow-right"></i></button>
-                        
+                        <input id="email" name="email" type="email" class="form-control newsletter-email" placeholder="Enter email" aria-label="Enter email">
+                        <button id="submit" class="btn btn-dark btn-red" type="submit">SIGN UP <i class="fa-solid fa-arrow-right"></i></button>
+
                       </div>
-                      <span class="green" id="subscribed"></span>  
+                      <span class="green" id="subscribed"></span>
                     </form>
 
                 </div>
@@ -147,7 +147,7 @@
               </div>
 
               <div class="dot dot-3 tooltip-homepage" data-description="DAVAO">
-                        <p class="tooltip__content tooltip__content-3 tooltip-mid-width"> 
+                        <p class="tooltip__content tooltip__content-3 tooltip-mid-width">
                           <span>DAVAO</span>
                         </p>
               </div>
@@ -157,7 +157,7 @@
                   <span>ILOCOS</span>
                 </p>
               </div>
-                   
+
             </div>
           </div>
       </div>
@@ -176,7 +176,7 @@
           <div class="mt-4 row row-cols-1 row-cols-md-3 mb-3 text-center">
             <div class="col-lg-4 col-md-6">
               <div class="card mb-4 shadow">
-                
+
                 <div class="card-body">
                   <h2 class="card-title"><span class="visually-hidden">Users</span><i class="fa-solid fa-users-gear"></i></h2>
                   <h3>
@@ -189,7 +189,7 @@
 
             <div class="col-lg-4 col-md-6">
               <div class="card mb-4 shadow">
-                
+
                 <div class="card-body">
                   <h2 class="card-title"><span class="visually-hidden">Network Wired</span><i class="fa-solid fa-network-wired"></i></h2>
                   <h3>
@@ -203,7 +203,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="card mb-4 shadow">
-                
+
                 <div class="card-body">
                   <h2 class="card-title"><span class="visually-hidden">Server</span><i class="fa-solid fa-server"></i></h2>
                   <h3>
@@ -216,13 +216,13 @@
               </div>
             </div>
           </div>
-          
+
           <div class="section-title text-center fw-bold">
             <h3 class="mt-5">Services</h3>
           </div>
 
           <div class="mt-4 row row-cols-1 row-cols-md-3 mb-3 text-center">
-            
+
             <div class="col-lg-6 col-md-6">
               <div class="card mb-4 rounded-3 shadow">
                 <div class="card-body card-body-2">
@@ -288,7 +288,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/lenovo.html">
-                <img src="assets/images/products/computing/lenovo-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/computing/lenovo-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -296,7 +296,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/dell.html">
-                <img src="assets/images/products/computing/dell-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/computing/dell-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -304,7 +304,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/acer.html">
-                <img src="assets/images/products/computing/acer-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/computing/acer-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -312,7 +312,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/asus.html">
-                <img src="assets/images/products/computing/asus-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/computing/asus-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -320,7 +320,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/hp.html">
-                <img src="assets/images/products/computing/hp-logo.webp" class="img-fluid" alt="Lenovo"> 
+                <img src="assets/images/products/computing/hp-logo.webp" class="img-fluid" alt="Lenovo">
               </a>
             </div>
           </div>
@@ -328,7 +328,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/huawei.html">
-                <img src="assets/images/products/computing/huawei-logo.webp" class="img-fluid" alt="Lenovo"> 
+                <img src="assets/images/products/computing/huawei-logo.webp" class="img-fluid" alt="Lenovo">
               </a>
             </div>
           </div>
@@ -336,7 +336,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/ibm.html">
-                <img src="assets/images/products/computing/ibm-logo.webp" class="img-fluid" alt="Lenovo"> 
+                <img src="assets/images/products/computing/ibm-logo.webp" class="img-fluid" alt="Lenovo">
               </a>
             </div>
           </div>
@@ -344,15 +344,15 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/nutanix.html">
-                <img src="assets/images/products/computing/nutanix-logo.webp" class="img-fluid" alt="Lenovo"> 
+                <img src="assets/images/products/computing/nutanix-logo.webp" class="img-fluid" alt="Lenovo">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/synology.html">
-                <img src="assets/images/products/computing/synology-logo.webp" class="img-fluid" alt="Lenovo"> 
+                <img src="assets/images/products/computing/synology-logo.webp" class="img-fluid" alt="Lenovo">
               </a>
             </div>
           </div>
@@ -368,7 +368,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/arruba.html">
-                <img src="assets/images/products/networking/aruba-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/networking/aruba-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -376,7 +376,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/barracuda.html">
-                <img src="assets/images/products/networking/barracuda-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/networking/barracuda-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -384,7 +384,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/cisco.html">
-                <img src="assets/images/products/networking/cisco-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/networking/cisco-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -392,7 +392,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/honeywell.html">
-                <img src="assets/images/products/networking/honeywell-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/networking/honeywell-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -400,7 +400,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/ubiquiti.html">
-                <img src="assets/images/products/networking/ubiquiti-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/networking/ubiquiti-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -408,7 +408,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/zebra.html">
-                <img src="assets/images/products/networking/zebra-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/networking/zebra-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -424,7 +424,7 @@
           <div class="col-lg-4 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/hikvision.html">
-                <img src="assets/images/products/cctv/hikvision-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/cctv/hikvision-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -432,7 +432,7 @@
           <div class="col-lg-4 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/honeywell.html">
-                <img src="assets/images/products/cctv/honeywell-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/cctv/honeywell-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -440,7 +440,7 @@
           <div class="col-lg-4 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/dahua.html">
-                <img src="assets/images/products/cctv/dahua-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/cctv/dahua-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -448,7 +448,7 @@
           <!-- <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/computing/lenovo-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/computing/lenovo-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div> -->
@@ -464,7 +464,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/avaya.html">
-                <img src="assets/images/products/voip/avaya-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/voip/avaya-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -472,7 +472,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/bose.html">
-                <img src="assets/images/products/voip/bose-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/voip/bose-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -480,7 +480,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/zoom.html">
-                <img src="assets/images/products/voip/zoom-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/voip/zoom-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -488,7 +488,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/logitech.html">
-                <img src="assets/images/products/voip/logitech-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/voip/logitech-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -496,7 +496,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/polycom.html">
-                <img src="assets/images/products/voip/polycom-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/voip/polycom-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -504,7 +504,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="pages/products/brands/cisco.html">
-                <img src="assets/images/products/voip/cisco-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/voip/cisco-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -520,7 +520,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/security/fortinet-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/security/fortinet-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -528,7 +528,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/security/riverbed-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/security/riverbed-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -536,7 +536,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/security/symantec-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/security/symantec-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -544,7 +544,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/security/trend-micro-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/security/trend-micro-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -560,7 +560,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/cabling/commscope-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/cabling/commscope-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -568,7 +568,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/cabling/panduit-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/cabling/panduit-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -576,7 +576,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/cabling/tplink-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/cabling/tplink-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -584,7 +584,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/cabling/vertiv-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/cabling/vertiv-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -600,7 +600,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/software-solution/microsoft-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/software-solution/microsoft-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -608,7 +608,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/software-solution/redhat-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/software-solution/redhat-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -616,7 +616,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/software-solution/solarwinds-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/software-solution/solarwinds-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -624,7 +624,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/software-solution/symantec-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/software-solution/symantec-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -632,7 +632,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/software-solution/vmware-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/software-solution/vmware-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -648,7 +648,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/data-center/dell-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/data-center/dell-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -656,7 +656,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/data-center/hp-entp-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/data-center/hp-entp-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -664,7 +664,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/data-center/lenovo-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/data-center/lenovo-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -672,7 +672,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 products-item">
             <div class="products-wrap">
               <a href="#">
-                <img src="assets/images/products/data-center/sangfor-logo.webp" class="img-fluid" alt="Product"> 
+                <img src="assets/images/products/data-center/sangfor-logo.webp" class="img-fluid" alt="Product">
               </a>
             </div>
           </div>
@@ -686,7 +686,7 @@
 
   <!-- START of PARTNERS -->
 
-  <section class="partners">     
+  <section class="partners">
 
     <div class="section-title text-center fw-bold">
       <h3>Our Partners</h3>
@@ -695,7 +695,7 @@
   <div id="carouselRide" class="carousel carousel-dark slide mb-5" data-bs-ride="carousel">
 
     <div class="carousel-inner">
-      
+
       <div class="carousel-item active" data-bs-interval="5000">
         <img src="assets/images/partners/avaya-logo.webp" class="d-block mx-auto" alt="...">
           <div class="carousel-caption d-md-block">
@@ -770,13 +770,13 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  
+
   </div>
 
   </section>
 
   <!-- START of FOOTER -->
-  
+
   <div class="container-fluid footer">
     <div class="py-5">
       <div class="row">
@@ -867,12 +867,14 @@
 
   <!-- BOOTSTRAP Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-    
+
   <!-- Fontawesome JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
+
   <!-- CUSTOM JS -->
   <script src="assets/js/main.js"></script>
+  <script src="index.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 
   <script>
     AOS.init();
