@@ -15,9 +15,19 @@
 
 ## CONTRIBUTORS:
 
-1. Bootstrap.com for the NAVBAR-COLLAPSE and OFF-CANVAS NAVBAR-MENU - https://getbootstrap.com/docs/5.3/getting-started/introduction/
-2. CodingArtist on Youtube for the back-to-top with progress value - https://codingartistweb.com/
+UI/UX: Christian Benedict A. Ramirez
+Products/Resources lists: Reyna Jane Cabuga
+
+/*Pages*/
+Homepage/About/Partners/Clients/Certifications/Enquiries Page: xtian
+Services Page: Ed
+Products Page: Ed/Khim
+Terms/Careers Page: Reyna
+
+2. Bootstrap.com for the NAVBAR-COLLAPSE and OFF-CANVAS NAVBAR-MENU - https://getbootstrap.com/docs/5.3/getting-started/introduction/
+3. CodingArtist on Youtube for the back-to-top with progress value - https://codingartistweb.com/
 
 ## CURRENT FEATURES IMPLEMENTED
 
 1. Responsive Web Design
+2. RESTful API / Mail API
