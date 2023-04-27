@@ -105,10 +105,25 @@
                     </div>
 
                     <h5 class="newsletter-title fst-italic">Subscribe to our newsletter</h5>
-                    <form id="email-form" class="row g-3" name="vyf-subsheet">
+                    <form
+                      id="email-form"
+                      class="row g-3"
+                      name="vyf-subsheet"
+                      method="GET"
+                      action="">
                       <div class="input-group newsletter-input">
-                        <input id="email" name="email" type="email" class="form-control newsletter-email" placeholder="Enter email" aria-label="Enter email">
-                        <button id="submit" class="btn btn-dark btn-red" type="submit">SIGN UP <i class="fa-solid fa-arrow-right"></i></button>
+                        <input
+                          id="email"
+                          name="email"
+                          type="email"
+                          class="form-control newsletter-email" placeholder="Enter email" aria-label="Enter email"
+                          value="">
+                        <button
+                          id="submit"
+                          class="btn btn-dark btn-red" type="submit"
+                          value="Click"
+                          onclick="SendEmail(this.form)">
+                          SIGN UP <i class="fa-solid fa-arrow-right"></i></button>
 
                       </div>
                       <span class="green" id="subscribed"></span>
@@ -875,7 +890,21 @@
   <script src="assets/js/main.js"></script>
   <script src="index.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
-
+  <script>
+    function SendEmail(form) {
+        let x = form.email.value;
+        Email.send({
+          // Host: "smtp.elasticemail.com",
+          // Username: "edbenedictquia@gmail.com",
+          // Password: "CE507D55E4586149C96858EE2BF07373BD71",
+          SecureToken: '85d0dac1-8d56-43b4-b7d7-c9d2a164910a',
+          To: x,
+          From: "vyfnetworksinc4@gmail.com",
+          Subject: "THANK YOU",
+          Body: "You have been successfully subscribed to our newsletter",
+        }).then((message) => alert(message));
+      }
+  </script>
   <script>
     AOS.init();
   </script>
