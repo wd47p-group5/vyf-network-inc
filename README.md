@@ -6,8 +6,10 @@
 
 ## Github Page Link: 
 [GitHub Repo](https://github.com/wd47p-group5/vyf-network-inc)
-[Live Demo - Git Pages](https://wd47p-group5.github.io/vyf-network-inc/)
-[Live Demo - Netlify](https://vyf-networks.netlify.app/)
+[Live Link - Git Pages](https://wd47p-group5.github.io/vyf-network-inc/)
+[Live Link - Vercel](https://vyf-network.vercel.app/)
+[Live Link - Netlify](https://vyf-networks.netlify.app/)
+
 ## TECHNOLOGIES
 
 1. HTML, CSS (Bootstrap), JavaScipt
@@ -15,14 +17,16 @@
 
 ## CONTRIBUTORS:
 
-UI/UX: Christian Benedict A. Ramirez
-Products/Resources lists: Reyna Jane Cabuga
+Lead: Christian Benedict A. Ramirez
+UI/UX Designer: Christian Benedict A. Ramirez & Khimberly Cruz Jara
+Products/Resources lists: Christian Benedict A. Ramirez & Reyna Jane Cabuga
 
 /*Pages*/
-Homepage/About/Partners/Clients/Certifications/Enquiries Page: xtian
-Services Page: Ed
-Products Page: Ed/Khim
-Terms/Careers Page: Reyna
+Homepage/About/Partners/Clients/Certifications/Enquiries Page: Christian Benedict A. Ramirez
+Email API - Ed Benedict Quia
+Services Page: Ed Benedict Quia
+Products Page: Ed Benedict Quia & Khimberly Cruz Jara
+Terms/Careers Page: Reyna Jane Cabuga
 
 2. Bootstrap.com for the NAVBAR-COLLAPSE and OFF-CANVAS NAVBAR-MENU - https://getbootstrap.com/docs/5.3/getting-started/introduction/
 3. CodingArtist on Youtube for the back-to-top with progress value - https://codingartistweb.com/
@@ -34,7 +38,7 @@ Terms/Careers Page: Reyna
 3. Contact Form to Google Sheets
 
 ## TESTING AND DEBUGGING TASKS DONE (POSSIBLE BUGS IN THE APPLICATION)
-1. SPEED TEST using Google PageSpeed Insights *[Click here for the result](https://pagespeed.web.dev/analysis/https-wd47p-group5-github-io-vyf-network-inc/p9v0eljr2n?form_factor=desktop)*
+1. SPEED TEST using Google PageSpeed Insights *[Click here for the result](https://pagespeed.web.dev/analysis/https-vyf-networks-netlify-app/a6jx4xbjq9?form_factor=desktop)*
 2. SEMANTIC VALIDATION using validator.w3.org - Result: **Document checking completed. No errors or warnings to show.**
 3. RESPONSIVE WEB TEST - https://responsivetesttool.com/
-4. GT Metrix - https://gtmetrix.com/reports/wd47p-group5.github.io/zixlqoCr/
+4. GT Metrix - *[Click here for the result](https://gtmetrix.com/reports/vyf-networks.netlify.app/Kw0B7HSm/)*
