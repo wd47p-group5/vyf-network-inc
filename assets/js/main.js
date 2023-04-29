@@ -39,19 +39,19 @@ let calcScrollValue = () => {
 //     .catch(error => console.error('Error!', error.message))
 // })
 
-// const scriptURL2 = 'https://script.google.com/macros/s/AKfycbwSmDMsrEBQ8DUW2BBF4JoxqmzOMHyeYnyqBu1ZrNfKz_I4gZiMsDRkGqkbuqFMk-hz/exec'
-// const form2 = document.forms['vyf-contact-form']
-// const message = document.getElementById("message")
+const scriptURL2 = 'https://script.google.com/macros/s/AKfycbwSmDMsrEBQ8DUW2BBF4JoxqmzOMHyeYnyqBu1ZrNfKz_I4gZiMsDRkGqkbuqFMk-hz/exec'
+const form2 = document.forms['vyf-contact-form']
+const message = document.getElementById("message")
 
-// form2.addEventListener('submit', e => {
-//   e.preventDefault()
-//   fetch(scriptURL2, { method: 'POST', body: new FormData(form2)})
-//     .then(response => {
-//       message.innerHTML = "<br>Thank you for contacting us!"
-//       setTimeout(function(){
-//         message.innerHTML = "<br>"
-//       },5000)
-//       form2.reset()
-//     })
-//     .catch(error => console.error('Error!', error.message))
-// })
+form2.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL2, { method: 'POST', body: new FormData(form2)})
+    .then(response => {
+      message.innerHTML = "<br>Thank you for contacting us!"
+      setTimeout(function(){
+        message.innerHTML = "<br>"
+      },5000)
+      form2.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})

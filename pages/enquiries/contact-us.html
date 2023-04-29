@@ -122,7 +122,7 @@
             <div class="email">
              
               <h4>Email:</h4>
-              <p><a class="email" href="mailto:vyfnetworksinc@gmail.com?subject=Testing out mailto!">vyfnetworksinc@gmail.com</a></p>
+              <p><a class="email" href="mailto:vyfnetworksinc4@gmail.com?subject=Testing out mailto!">vyfnetworksinc4@gmail.com</a></p>
             </div>
             
           </div>
@@ -150,20 +150,20 @@
 
         </div>
 
-        <div class="col-lg-12">
+        <!-- <div class="col-lg-12">
           
           <div class="yellow-bg p-5 mt-3">
             <h5 class="newsletter-title fst-italic text-white">Subscribe to our newsletter</h5>
-            <form class="row g-3" name="vyf-subsheet">
+            <form id="email-form" class="row g-3" name="vyf-subsheet" method="GET" action="">
               <div class="input-group newsletter-input">
-                <input type="email" name="email" class="form-control newsletter-email" placeholder="Enter email" aria-label="Enter email">
-                <button class="btn btn-dark btn-green" type="submit">SIGN UP <i class="fa-solid fa-arrow-right"></i></button>
-              </div>  
+                <input id="email" name="email" type="email" class="form-control newsletter-email" placeholder="Enter email" aria-label="Enter email" value="">
+                <button id="submit" class="btn btn-dark btn-red" type="submit" value="Click" onclick="SendEmail(this.form)"> SIGN UP <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
             </form>
             <span class="blue" id="subscribed"> </span>
           </div>
 
-        </div>
+        </div> -->
 
       </div>
     </div>
@@ -267,7 +267,46 @@
   
   <!-- CUSTOM JS -->
   <script src="../../assets/js/main.js"></script>
+  <!-- <script>
+    const emailForm = document.getElementById('email-form');
+    emailForm.addEventListener('submit', (e)=>{ e.preventDefault();});
+    const subscribed = document.getElementById('subscribed');
 
+    function SendEmail(form) {
+      // form.preventDefault();
+        let email = form.email.value;
+        if(validateEmail(email)) {
+          Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "vyfnetworksinc4@gmail.com",
+            Password: "E62CA19B19CFEEDDB669FDE4123CC53DC3F3",
+            // SecureToken: '85d0dac1-8d56-43b4-b7d7-c9d2a164910a',
+            To: email,
+            From: "vyfnetworksinc4@gmail.com",
+            Subject: "Thank you for subscribing!",
+            Body: "You have been successfully subscribed to our newsletter",
+          }).then(response => {
+            subscribed.innerHTML = "<br> Thank you for subscribing!"
+            setTimeout(function(){
+              subscribed.innerHTML = "<br>"
+            },5000)
+            emailForm.reset()
+          });
+        }
+          else {
+            subscribed.innerHTML = "<br> Please input a valid email address"
+            setTimeout(function(){
+              subscribed.innerHTML = "<br>"
+            },5000)
+            emailForm.reset()
+          }
+      }
+
+      function validateEmail(email) {
+        const regex = /\S+@\S+\.\S+/;
+        return regex.test(email);
+      }
+  </script> -->
   <script>
     AOS.init();
   </script>

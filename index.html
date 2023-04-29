@@ -874,9 +874,9 @@
   <script src="assets/js/main.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script>
-const emailForm = document.getElementById('email-form');
-emailForm.addEventListener('submit', (e)=>{ e.preventDefault();});
-const subscribed = document.getElementById('subscribed');
+    const emailForm = document.getElementById('email-form');
+    emailForm.addEventListener('submit', (e)=>{ e.preventDefault();});
+    const subscribed = document.getElementById('subscribed');
 
     function SendEmail(form) {
       // form.preventDefault();
@@ -889,7 +889,7 @@ const subscribed = document.getElementById('subscribed');
             // SecureToken: '85d0dac1-8d56-43b4-b7d7-c9d2a164910a',
             To: email,
             From: "vyfnetworksinc4@gmail.com",
-            Subject: "THANK YOU",
+            Subject: "Thank you for subscribing!",
             Body: "You have been successfully subscribed to our newsletter",
           }).then(response => {
             subscribed.innerHTML = "<br> Thank you for subscribing!"
