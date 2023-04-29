@@ -30,4 +30,11 @@ Terms/Careers Page: Reyna
 ## CURRENT FEATURES IMPLEMENTED
 
 1. Responsive Web Design
-2. RESTful API / Mail API
+2. RESTful API - Ed used ElasticEmail API using JavaScript
+3. Contact Form to Google Sheets
+
+## TESTING AND DEBUGGING TASKS DONE (POSSIBLE BUGS IN THE APPLICATION)
+1. SPEED TEST using Google PageSpeed Insights *[Click here for the result](https://pagespeed.web.dev/analysis/https-wd47p-group5-github-io-vyf-network-inc/p9v0eljr2n?form_factor=desktop)*
+2. SEMANTIC VALIDATION using validator.w3.org - Result: **Document checking completed. No errors or warnings to show.**
+3. RESPONSIVE WEB TEST - https://responsivetesttool.com/
+4. GT Metrix - https://gtmetrix.com/reports/wd47p-group5.github.io/zixlqoCr/
